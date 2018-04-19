@@ -1,0 +1,24 @@
+{
+  "name": "gulp_sass",
+  "version": "1.0.0",
+  "description": "Compiling SASS to CSS, then minify thems",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralphmoran/gulp_sass.git"
+  },
+  "author": "Ralph Moran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphmoran/gulp_sass/issues"
+  },
+  "homepage": "https://github.com/ralphmoran/gulp_sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
