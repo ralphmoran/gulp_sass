@@ -5,8 +5,7 @@ var minifycss = require('gulp-csso');
 gulp.task('compile-sass', function(){
     return gulp.src('app/scss/*.scss')
             .pipe(sass())
-            .pipe(minifycss
-            ())
+            .pipe(minifycss())
             .pipe(gulp.dest('dist/css'));
 });
 
